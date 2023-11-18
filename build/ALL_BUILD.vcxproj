@@ -177,6 +177,10 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
       <Project>{02F6CEE0-E27E-3DFA-962E-67DF5903F366}</Project>
       <Name>BattleCity</Name>
     </ProjectReference>
+    <ProjectReference Include="D:\GameEngineProject\BattleCity\build\external\glfw\src\glfw.vcxproj">
+      <Project>{1DFC7FC6-643A-3413-AB0F-64B732982B66}</Project>
+      <Name>glfw</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
