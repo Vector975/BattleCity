@@ -46,7 +46,7 @@ int main(void)
     // Регестрируем Callback нашей функции glfwWindowSizeCallback с помошью glfwSetWindowSizeCallback
     // pWindow - для какого окна мы регестрируем наш callback и вторым параметром какую функцыю регестрируем
     glfwSetWindowSizeCallback(pWindow, glfwWindowSizeCallback);
-    // Callback функции glfwKeyCallBack для закрытия окна pWindow через клавишу esc
+    // Callback функции glfwKeyCallBack для закрытия окна pWindow через esc
     glfwSetKeyCallback(pWindow, glfwKeyCallBack);
     /* Make the window's context current */
     glfwMakeContextCurrent(pWindow);
